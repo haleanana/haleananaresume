@@ -3,7 +3,9 @@
 html body {
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
-    color: #D66A6A
+    color: #D66A6A;
+    margin: 0;
+    padding:0
 
 }
 
@@ -26,25 +28,35 @@ html body {
     color: #D66A6A !important;
     text-transform: uppercase;
     letter-spacing: 5px ;
-    font-size: 72px;
+    font-size: 64px;
     font-weight: 500;
     line-height: 108px
 }
 
 /*------------Landing page image---------------*/
 
-.main-image {background: url("../images/heroimage.jpg")no-repeat center center; 
+.main-image {background: url("../images/resizedimage.jpg")no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
-  max-width: 100%
-
 }
 
-.introduction {
+.introduction{
     width:100%;
     max-width: 100%;
-    position: absolute
+    position: absolute;
+    top: 40%;
+    color: #0a0101;
+    font-size: 36px
+}
+
+h2 {
+    font-size: 40px
+}
+ 
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding-left: 0px;
+    padding-right: 0px
 }
