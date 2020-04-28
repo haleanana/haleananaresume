@@ -5,9 +5,52 @@ html body {
     font-family: "Poppins", sans-serif;
     color: #D66A6A;
     margin: 0;
-    padding:0
+    padding:0;
 
 }
+
+
+/*----background color-----*/
+
+.footer-bg-color {
+    background-color: #fff
+}
+
+.background-contact-color {
+
+    background-color: #e8b9b9
+}
+
+/*---------Paddings --------*/
+
+.footer-padding {
+    padding-top: 10px
+}
+
+/*---------Contact form custom style --------*/
+
+.center-form{
+    margin: 0 auto ;
+    max-width: 50% ;
+}
+
+#contact {
+    margin-top: 50px
+}
+
+
+/*--------hr for contact-------*/
+
+#hr-contact {margin: 0 auto;
+max-width: 50%;
+border-top: 3px solid #e8b9b9
+
+}
+
+/*----Buttons----*/
+
+
+
 
 /*------------Nav---------------*/
 
@@ -22,7 +65,7 @@ html body {
 
 .navbar-light .navbar-nav .nav-link {
  color: #D66A6A;
- font-size: 24px
+ font-size: 24px;
 }
 
 .navbar-brand {
@@ -31,19 +74,22 @@ html body {
     letter-spacing: 5px ;
     font-size: 40px;
     font-weight: 500;
-    line-height: 108px
+    line-height: 108px;
 }
 
+.nav-to-contact  {
+    color: black
+}
 
 @media only screen and (max-width: 993px) {
   .navbar {
     height: 0px;
     padding-top: 0 !important;
-    padding-bottom: 0 !important
+    padding-bottom: 0 !important;
   }
 
   .navbar-brand{
-      display: none
+      display: none;
   }
 }
 /*------------Landing page image---------------*/
@@ -67,12 +113,12 @@ html body {
 }
 
 h2 {
-    font-size: 40px
+    font-size: 40px;
 }
  
 .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     padding-left: 0px;
-    padding-right: 0px
+    padding-right: 0px;
 }
 
 /*------------About Me Page--------------*/
@@ -84,7 +130,6 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-   
   }
   #right-about{
     padding-top: 30px;
@@ -101,14 +146,14 @@ h2 {
   hr {
     border-top: 1px solid #777777;
     width: 100%;
-    margin: 5px
+    margin: 5px;
   }
   .left-about-heading {
     width: 50%;
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px
+    margin-bottom: 50px;
   }
   
   .right-about-heading {
@@ -116,13 +161,13 @@ h2 {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px
+    margin-bottom: 50px;
   }
   .right-about-heading h2 {
-    text-align: right
+    text-align: right;
   }
   .right-about-heading p {
-    text-align: right
+    text-align: right;
   }
   #profile {
     margin: 20px 0;
@@ -138,41 +183,41 @@ h2 {
    border-width: 0.5px;
    border-radius: 50%;
    margin: 0 auto;
-   background-color: #e8b9b9
+   background-color: #e8b9b9;
  }
 
  #circle-cover-bg { background: url("../images/halephoto.jpg")
    no-repeat center center;
    height: 100%;
    border-radius: 50%;
-   background-position: 50% 
+   background-position: 50% ;
 }
 
 @media screen and (max-width: 1393px) {
   #about-me {
     width: 65%;
     height: 1200px;
-    margin: 0 auto
+    margin: 0 auto;
   }
   #profile {
     padding: 30px 0;
-    margin: 0
+    margin: 0;
   }
   #left-about, #right-about {
     width: 100%;
     float: left;
-    padding: 0
+    padding: 0;
   }
 
   #center-about {
     clear: both;
     width: 100%;
     float: left;
-    padding: 0
+    padding: 0;
   }
 
   hr {
-    display: none
+    display: none;
   }
 }
 
@@ -222,49 +267,8 @@ h2 {
 }
 
 
-/*-------------------Time line------------------------*/
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
-}
+/*-------------------Contact page------------------------*/
 
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: red;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fafafa;
-}
-
-.history-items {
-    margin-bottom: 30px;
+#contact {
+    margin-top: 50px
 }
