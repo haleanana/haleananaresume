@@ -1,17 +1,12 @@
 <h1>Hale Anana - Resume </h1>
 <hr>
-
 I wanted to create a resume website to:
-
 <ul>
-
 <li> Showcase my skill and how its applied </li>
 <li> Attract potential employers </li>
 <li> To potentially collaborate with other web designers on cool and exciting project</li>
 <ul>
-
 <hr>
-
 <h2>UX </h2>
 As I've mentioned, this website is mainly targeted at potential employers. I focused on something simple and easy to navigate but made sure that it showcases what I'm capable of visually and technically.
 
