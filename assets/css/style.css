@@ -108,11 +108,17 @@
  .right-about-heading p {
      text-align: right;
 }
- #profile {
-     margin: 20px 0;
-     text-align: center;
-     font-size: 280%;
+
+#link-resume {
+    justify-content: center
 }
+
+#link-resume h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px
+}
+
  #circle-container {
      width: 300px;
      height: 300px;
@@ -173,8 +179,19 @@
          text-align: center;
          padding: 0 20px 0 20px;
     }
-    /*------------Skills bar--------------*/
+    
  }
+
+ /*------------Skills bar--------------*/
+
+   .skills-heading {
+       justify-content: center
+   }
+
+   .skills-heading h2 {
+       font-size: 40px
+   }
+
     .progress {
          position: relative;
          height: 25px;
@@ -207,9 +224,13 @@
   margin-top: 50px;
 }
 
+.contact-heading h2 {
+    font-size: 40px
+}
 
 .btn-primary {
-background-color: #d66a6a !important ;
+background-color: #d66a6a;
+border-color: #fff
 }
 
  .center-form{
@@ -225,6 +246,10 @@ button {
     margin-bottom: 20px;
 }
 
+.btn-primary:hover {
+    background-color: #e8b9b9
+
+}
 /*-------------------Footer------------------------*/
     
     .footer-padding {
