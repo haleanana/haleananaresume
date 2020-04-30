@@ -12,7 +12,6 @@
  .navbar {
      color: #D66A6A;
      font-size: 24px;
-     text-transform: uppercase;
      font-weight: 500;
      height: 40px;
 }
@@ -196,33 +195,78 @@
  
 /*-------------------Contact page------------------------*/
      
-  #contact {
+#contact{
          
-         margin-top: 50px 
-    }
-     
-     .btn-primary  {
-         background-color: #d66a6a !important ;
-     }
+  margin-top: 50px;
+}
+
+
+.btn-primary {
+background-color: #d66a6a !important ;
+}
 
  .center-form{
      margin: 0 auto ;
      max-width: 50% ;
 }
  #contact {
-     margin-top: 50px 
+     margin-top: 50px ;
 }
 
 button {
     margin-top: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
-    /*-------------------Footer------------------------*/
+/*-------------------Footer------------------------*/
     
+    .footer-padding {
+        padding-left: 16px;
+        padding-right: 16px;
+    
+    }
+
     footer {
         
         min-height: 60px;
         background-color: #d66a6a;
         margin: 0
+    }
+
+    footer h2 {
+        color:#fff
+    }
+
+    footer p {
+        color: #fff
+        
+    }
+
+    footer ul {
+        padding-top: 16px
+    }
+
+    footer ul li {
+        color: #fff;
+        display: inline;
+        float: right
+
+    }
+
+    footer ul li a {
+        color: #fff;
+        font-size: 24px;
+        padding-left: 5px;
+        padding-top: 25px
+    }
+
+    .copy-right p {
+        text-align: center;
+        padding-top: 25px
+    }
+
+    .footer-contact p {
+        margin: 0 ;
+        padding-top: 25px
+
     }
