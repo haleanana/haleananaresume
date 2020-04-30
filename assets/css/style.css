@@ -174,25 +174,32 @@
          padding: 0 20px 0 20px;
     }
     /*------------Skills bar--------------*/
-     .progress {
+ }
+    .progress {
          position: relative;
          height: 25px;
          margin-bottom: 4px;
+         background-color: #fff
     }
-     .progress-type {
-         position: absolute;
-         left: 0px;
-         font-weight: 500;
-         padding: 3px 30px 2px 10px;
-         color: #fafafa;
-         background-color: rgba(25, 25, 25, 0.2);
-    }
-     .progress-section {
-         margin: 40px 20px;
+
+    .progress-bar {
+        background-color: #D66A6A
 
     }
- }
- 
+     
+    .progress-skills {
+        width: 50%;
+        margin: 0 auto;
+        margin-left: 340px
+    }
+
+@media screen and (max-width: 1117px) {
+    .progress-skills {
+        display: none
+    }
+
+}
+
 /*-------------------Contact page------------------------*/
      
 #contact{
@@ -286,4 +293,5 @@ button {
         width: 60%;
         justify-content: center
     }
+
     }
