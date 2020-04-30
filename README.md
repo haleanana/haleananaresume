@@ -80,15 +80,11 @@ Below are the following scenarios that has been tested
 
 
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+<h3>Deployment</h3>
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+Deployed using Githubpages and deployed directly from the master branch. My website should update automatically upon new commits to the master branch.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+If you want to run this locally, just clone this repository directly into the editor of your choice by pasting the link into your terminal. 
 
 <h3>Credits</h3>
 All contents are done by me
