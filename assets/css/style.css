@@ -40,6 +40,14 @@
          display: none;
     }
 }
+
+
+@media screen and (max-width: 1117px) {
+    #no-display-skills {
+        display: none
+    }
+
+}
 /*------------Landing page image---------------*/
  .main-image {
     background: url("../images/heroimage.jpg")no-repeat center center;
@@ -66,8 +74,8 @@
 }
 
 /*------------About Me Page--------------*/
- #about-me{
-     height: 600px;
+ #about-me {
+     height: 500px;
 }
  #left-about{
      padding-top: 30px;
@@ -214,7 +222,10 @@
     .progress-skills {
         display: none
     }
-
+    
+    #skills {
+        display: none
+    }
 }
 
 /*-------------------Contact page------------------------*/
