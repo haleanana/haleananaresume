@@ -23,6 +23,9 @@ During my research of what a good online resume should present, I found the foll
 Putting myself in the employers position, I would probably go with the "less is more" approach.
 The webpage has all the information that a potential employer/collaborator needs.
 
+
+<a href="https://www.figma.com/file/uSBSgPJTvIpOQyNAWUnOl7/resume-website?node-id=0%3A1" target="_blank"> Link to my mockup</a>
+
 <h2>Features</h2>
 
 <h3>Existing Features</h3>
