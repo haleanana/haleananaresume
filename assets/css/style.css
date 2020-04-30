@@ -260,6 +260,12 @@ button {
         padding-top: 25px
     }
 
+    footer li a i:hover {
+        color: #e8b9b9
+    }
+
+
+
     .copy-right p {
         text-align: center;
         padding-top: 25px
@@ -270,3 +276,5 @@ button {
         padding-top: 25px
 
     }
+
+    
