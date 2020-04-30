@@ -1,333 +1,352 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
-
- html body {
-     overflow-x: hidden;
-     font-family: "Poppins", sans-serif;
-     color: #D66A6A;
-     margin: 0;
-     padding:0;
+html body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  color: #D66A6A;
+  margin: 0;
+  padding: 0;
 }
+
 
 /*------------Nav---------------*/
- .navbar {
-     color: #D66A6A;
-     font-size: 24px;
-     font-weight: 500;
-     height: 40px;
-}
- .navbar-light .navbar-nav .nav-link {
-     color: #D66A6A;
-     font-size: 24px;
-}
- .navbar-brand {
-     color: #D66A6A !important;
-     text-transform: uppercase;
-     letter-spacing: 5px ;
-     font-size: 40px;
-     font-weight: 500;
-     line-height: 108px;
-}
- .nav-to-contact {
-     color: black 
-}
- @media only screen and (max-width: 993px) {
-     .navbar {
-         height: 0px;
-         padding-top: 0 !important;
-         padding-bottom: 0 !important;
-    }
-     .navbar-brand{
-         display: none;
-    }
+
+.navbar {
+  color: #D66A6A;
+  font-size: 24px;
+  font-weight: 500;
+  height: 40px;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #D66A6A;
+  font-size: 24px;
+}
+
+.navbar-brand {
+  color: #D66A6A !important;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 108px;
+}
+
+.nav-to-contact {
+  color: black
+}
+
+@media only screen and (max-width: 993px) {
+  .navbar {
+    height: 0px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .navbar-brand {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 1117px) {
-    #no-display-skills {
-        display: none
-    }
+  #no-display-skills {
+    display: none;
+  }
+}
 
-}
+
 /*------------Landing page image---------------*/
- .main-image {
-    background: url("../images/heroimage.jpg")no-repeat center center;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-     height: 100vh;
+
+.main-image {
+  background: url("../images/heroimage.jpg")no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
 }
- .introduction{
-     width:100%;
-     max-width: 100%;
-     position: absolute;
-     top: 40%;
-     color: #0a0101;
+
+.introduction {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  color: #0a0101;
 }
- .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-     padding-left: 0px;
-     padding-right: 0px;
+
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .introduction h1 {
-    font-size: 80px
+  font-size: 80px;
 }
 
+
 /*------------About Me Page--------------*/
- #about-me {
-     height: 500px;
+
+#about-me {
+  height: 500px;
 }
- #left-about{
-     padding-top: 30px;
-     width: 33%;
-     float: left;
+
+#left-about {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
 }
- #right-about{
-     padding-top: 30px;
-     width: 33%;
-     float: right;
+
+#right-about {
+  padding-top: 30px;
+  width: 33%;
+  float: right;
 }
- #center-about{
-     width: 33%;
-     margin: 0 auto;
+
+#center-about {
+  width: 33%;
+  margin: 0 auto;
 }
- hr {
-     border-top: 1px solid #777777;
-     width: 100%;
-     margin: 5px;
+
+hr {
+  border-top: 1px solid #777777;
+  width: 100%;
+  margin: 5px;
 }
- .left-about-heading {
-     width: 50%;
-     float: right;
-     line-height: 20px;
-     clear: both;
-     margin-bottom: 50px;
+
+.left-about-heading {
+  width: 50%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
 }
- .right-about-heading {
-     width: 50%;
-     float: left;
-     line-height: 20px;
-     clear: both;
-     margin-bottom: 50px;
+
+.right-about-heading {
+  width: 50%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
 }
- .right-about-heading h2 {
-     text-align: right;
+
+.right-about-heading h2 {
+  text-align: right;
 }
- .right-about-heading p {
-     text-align: right;
+
+.right-about-heading p {
+  text-align: right;
 }
 
 #link-resume {
-    justify-content: center
+  justify-content: center;
 }
 
 #link-resume h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+#circle-container {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #d66a6a;
+  border-width: 0.5px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #e8b9b9;
+}
+
+#circle-cover-bg {
+  background: url("../images/halephoto.jpg") no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
+  background-position: 50%;
+}
+
+@media screen and (max-width: 1393px) {
+  #about-me {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+  #profile {
+    padding: 30px 0;
+    margin: 0;
+  }
+  #left-about,
+  #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+  #center-about {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+  hr {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 943px) {
+  #about-me {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+  .left-about-heading,
+  .right-about-heading {
+    width: inherit;
+  }
+  .left-about-heading h2,
+  .right-about-heading h2 {
+    width: 100%;
     text-align: center;
-    font-size: 40px;
-    margin-top: 60px
+  }
+  .left-about-heading p,
+  .right-about-heading p {
+    text-align: center;
+    padding: 0 20px 0 20px;
+  }
 }
 
- #circle-container {
-     width: 300px;
-     height: 300px;
-     padding: 30px;
-     border-style: solid;
-     border-color: #d66a6a ;
-     border-width: 0.5px;
-     border-radius: 50%;
-     margin: 0 auto;
-     background-color: #e8b9b9;
+
+/*------------Skills bar--------------*/
+
+.skills-heading {
+  justify-content: center;
 }
- #circle-cover-bg {
-     background: url("../images/halephoto.jpg") no-repeat center center;
-     height: 100%;
-     border-radius: 50%;
-     background-position: 50% ;
+
+.skills-heading h2 {
+  font-size: 40px;
 }
- 
- @media screen and (max-width: 1393px) {
-     #about-me {
-         width: 65%;
-         height: 1200px;
-         margin: 0 auto;
-    }
-     #profile {
-         padding: 30px 0;
-         margin: 0;
-    }
-     #left-about, #right-about {
-         width: 100%;
-         float: left;
-         padding: 0;
-    }
-     #center-about {
-         clear: both;
-         width: 100%;
-         float: left;
-         padding: 0;
-    }
-     hr {
-         display: none;
-    }
+
+.progress {
+  position: relative;
+  height: 25px;
+  margin-bottom: 4px;
+  background-color: #fff;
 }
- @media screen and (max-width: 943px) {
-     #about-me {
-         width: 90%;
-         height: 1200px;
-         margin: 0 auto;
-    }
-     .left-about-heading, .right-about-heading{
-         width: inherit;
-    }
-     .left-about-heading h2, .right-about-heading h2 {
-         width: 100%;
-         text-align: center;
-    }
-     .left-about-heading p, .right-about-heading p {
-         text-align: center;
-         padding: 0 20px 0 20px;
-    }
-    
- }
 
- /*------------Skills bar--------------*/
+.progress-bar {
+  background-color: #D66A6A;
+}
 
-   .skills-heading {
-       justify-content: center
-   }
-
-   .skills-heading h2 {
-       font-size: 40px
-   }
-
-    .progress {
-         position: relative;
-         height: 25px;
-         margin-bottom: 4px;
-         background-color: #fff
-    }
-
-    .progress-bar {
-        background-color: #D66A6A
-
-    }
-     
-    .progress-skills {
-        width: 50%;
-        margin: 0 auto;
-        margin-left: 340px
-    }
+.progress-skills {
+  width: 50%;
+  margin: 0 auto;
+  margin-left: 340px;
+}
 
 @media screen and (max-width: 1117px) {
-    .progress-skills {
-        display: none
-    }
-    
-    #skills {
-        display: none
-    }
+  .progress-skills {
+    display: none;
+  }
+  #skills {
+    display: none;
+  }
 }
 
+
 /*-------------------Contact page------------------------*/
-     
-#contact{
-         
+
+#contact {
   margin-top: 50px;
 }
 
 .contact-heading h2 {
-    font-size: 40px
+  font-size: 40px;
 }
 
 .btn-primary {
-background-color: #d66a6a;
-border-color: #fff
+  background-color: #d66a6a;
+  border-color: #fff;
 }
 
- .center-form{
-     margin: 0 auto ;
-     max-width: 50% ;
+.center-form {
+  margin: 0 auto;
+  max-width: 50%;
 }
- #contact {
-     margin-top: 50px ;
+
+#contact {
+  margin-top: 50px;
 }
 
 button {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .btn-primary:hover {
-    background-color: #e8b9b9
-
+  background-color: #e8b9b9;
 }
+
+
 /*-------------------Footer------------------------*/
-    
-    .footer-padding {
-        padding-left: 16px;
-        padding-right: 16px;
-    
-    }
 
-    footer {
-        
-        min-height: 60px;
-        background-color: #d66a6a;
-        margin: 0
-    }
+.footer-padding {
+  padding-left: 16px;
+  padding-right: 16px;
+}
 
-    footer h2 {
-        color:#fff
-    }
+footer {
+  min-height: 60px;
+  background-color: #d66a6a;
+  margin: 0;
+}
 
-    footer p {
-        color: #fff
-        
-    }
+footer h2 {
+  color: #fff;
+}
 
-    footer ul {
-        padding-top: 16px
-    }
+footer p {
+  color: #fff;
+}
 
-    footer ul li {
-        color: #fff;
-        display: inline;
-        float: right
+footer ul {
+  padding-top: 16px;
+}
 
-    }
+footer ul li {
+  color: #fff;
+  display: inline;
+  float: right;
+}
 
-    footer ul li a {
-        color: #fff;
-        font-size: 24px;
-        padding-left: 5px;
-        padding-top: 25px
-    }
+footer ul li a {
+  color: #fff;
+  font-size: 24px;
+  padding-left: 5px;
+  padding-top: 25px;
+}
 
-    footer li a i:hover {
-        color: #e8b9b9
-    }
+footer li a i:hover {
+  color: #e8b9b9;
+}
 
+.copy-right p {
+  text-align: center;
+  padding-top: 25px;
+}
 
+.footer-contact p {
+  margin: 0;
+  padding-top: 25px;
+}
 
-    .copy-right p {
-        text-align: center;
-        padding-top: 25px
-    }
-
-    .footer-contact p {
-        margin: 0 ;
-        padding-top: 25px
-
-    }
-
-    @media screen and (max-width: 577px) {
-        .footer-contact p {
-            text-align: center
-        }
-
-    .align-icons {
-        width: 60%;
-        justify-content: center
-    }
-
-    }
+@media screen and (max-width: 577px) {
+  .footer-contact p {
+    text-align: center;
+  }
+  .align-icons {
+    width: 60%;
+    justify-content: center;
+  }
+}
