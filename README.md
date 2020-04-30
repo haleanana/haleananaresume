@@ -45,24 +45,37 @@ I also intend to add animated feautures once I become proficient at JS ,Python a
 
 <h2>Testing </h2>
 
+Below are the following scenarios that has been tested
 
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+<h3>Contact form</h3>
+<ul>
+<li>Tried to submit without an email address entered and it came back with an error message to notify users that email is required</li>
+<li>Tried to submit with an invalid email and it came back with an error message to notify that valid email is required</li>
+<li>Submitted with all input correctly filled and submission was a success
+</ul>
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+<h3>Responsiveness</h3>
+<ul>
+<li>I tested content alignment on different screen sizes and everything aligns the way I want it to align</li>
+<li>I tested to see if content I set to disappear during smaller screen sizes are working and found them to be working as intended</li>
+</ul>
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+<h3> Nav links</h3>
+<ul>
+<li>Tested nav links to make sure they direct to the correct section of the website</li>
+</ul>
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+<h3> General HTML and CSS </h3>
+<ul>
+<li>Ran html and css code using html and css checker. Came back with no errors found</li>
+</ul>
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+<h3>Possible bugs</h3>
+<ul>
+<li>During responsiveness testing, the content seem to have a right margin on the smaller screen. This disappears when you change screensizes multiple times</li>
+</ul>
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -74,10 +87,13 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+<h3>Credits</h3>
+All contents are done by me
+
+<h4>Images</h4>
+Landing page image taken from Unsplash by user <a href="https://unsplash.com/@jesuskiteque">Jesus Kiteque</a>
+
+<h4>Acknowledgments</h4>
+Bootstrap
+<a href="https://www.w3schools.com/default.asp">w3schools</a> as reference to solve html problems
+<a href="https://jigsaw.w3.org/css-validator/#validate_by_input">w3c </a> used as html and css error validator
