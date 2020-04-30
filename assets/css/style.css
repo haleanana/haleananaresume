@@ -7,28 +7,7 @@
      margin: 0;
      padding:0;
 }
-/*----background color-----*/
 
- .background-contact-color {
-     background-color: #fff 
-}
-/*---------Paddings --------*/
-
-/*---------Contact form custom style --------*/
- .center-form{
-     margin: 0 auto ;
-     max-width: 50% ;
-}
- #contact {
-     margin-top: 50px 
-}
-/*--------hr for contact-------*/
- #hr-contact {
-     margin: 0 auto;
-     max-width: 50%;
-     border-top: 3px solid #e8b9b9 
-}
-/*----Buttons----*/
 /*------------Nav---------------*/
  .navbar {
      color: #D66A6A;
@@ -214,15 +193,32 @@
 
     }
  }
-    .
-    /*-------------------Contact page------------------------*/
+ 
+/*-------------------Contact page------------------------*/
      
-     #contact {
+  #contact {
          
          margin-top: 50px 
     }
      
-     /*-------------------Footer------------------------*/
+     .btn-primary  {
+         background-color: #d66a6a !important ;
+     }
+
+ .center-form{
+     margin: 0 auto ;
+     max-width: 50% ;
+}
+ #contact {
+     margin-top: 50px 
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+    /*-------------------Footer------------------------*/
     
     footer {
         
