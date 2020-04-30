@@ -277,4 +277,13 @@ button {
 
     }
 
-    
+    @media screen and (max-width: 577px) {
+        .footer-contact p {
+            text-align: center
+        }
+
+    .align-icons {
+        width: 60%;
+        justify-content: center
+    }
+    }
