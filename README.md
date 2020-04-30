@@ -94,6 +94,10 @@ All contents are done by me
 Landing page image taken from Unsplash by user <a href="https://unsplash.com/@jesuskiteque">Jesus Kiteque</a>
 
 <h4>Acknowledgments</h4>
+<ul>
 Bootstrap
-<a href="https://www.w3schools.com/default.asp">w3schools</a> as reference to solve html problems
-<a href="https://jigsaw.w3.org/css-validator/#validate_by_input">w3c </a> used as html and css error validator
+<li><a href="https://www.w3schools.com/default.asp" target="_blank">w3schools</a> as reference to solve html problems </li>
+<li><a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">w3c </a> used as html and css error validator</li>
+<li><a href="https://www.youtube.com/channel/UCtXGz0MBuqZUC8rmGddc07Q" target="_blank">Drew Ryan </a> watched some tutorial to understand layouts and some inspiration</li>
+
+</ul>
