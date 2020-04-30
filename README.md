@@ -1,13 +1,11 @@
 <h1>Hale Anana - Resume </h1>
-<hr>
+
 I wanted to create a resume website to:
 <ul>
 <li> Showcase my skill and how its applied </li>
 <li> Attract potential employers </li>
 <li> To potentially collaborate with other web designers on cool and exciting project</li>
 </ul>
-
-<hr>
 
 <h2> UX </h2>
 As I've mentioned, this website is mainly targeted at potential employers. I focused on something simple and easy to navigate but made sure that it showcases what I'm capable of visually and technically.
@@ -24,8 +22,6 @@ During my research of what a good online resume should present, I found the foll
 
 Putting myself in the employers position, I would probably go with the "less is more" approach.
 The webpage has all the information that a potential employer/collaborator needs.
-
-<hr>
 
 <h2>Features</h2>
 
@@ -46,6 +42,8 @@ I also intend to add animated feautures once I become proficient at JS ,Python a
 <li>Bootstrap- Provides ready to use and visually appealing classes for convenience. Saves a lot of time </li>
 <li>Figma- To create the wireframe of my website</li>
 </ul>
+
+<h2>Testing </h2>
 
 
 Testing
