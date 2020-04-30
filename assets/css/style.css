@@ -8,16 +8,12 @@
      padding:0;
 }
 /*----background color-----*/
- .footer-bg-color {
-     background-color: #d66a6a
-}
+
  .background-contact-color {
      background-color: #fff 
 }
 /*---------Paddings --------*/
- .footer-padding {
-     padding-top: 10px 
-}
+
 /*---------Contact form custom style --------*/
  .center-form{
      margin: 0 auto ;
@@ -144,7 +140,8 @@
      height: 300px;
      padding: 30px;
      border-style: solid;
-     border-color: #d66a6a border-width: 0.5px;
+     border-color: #d66a6a ;
+     border-width: 0.5px;
      border-radius: 50%;
      margin: 0 auto;
      background-color: #e8b9b9;
@@ -155,6 +152,7 @@
      border-radius: 50%;
      background-position: 50% ;
 }
+ 
  @media screen and (max-width: 1393px) {
      #about-me {
          width: 65%;
@@ -215,10 +213,20 @@
          margin: 40px 20px;
 
     }
-
+ }
     .
     /*-------------------Contact page------------------------*/
+     
      #contact {
+         
          margin-top: 50px 
     }
      
+     /*-------------------Footer------------------------*/
+    
+    footer {
+        
+        min-height: 60px;
+        background-color: #d66a6a;
+        margin: 0
+    }
