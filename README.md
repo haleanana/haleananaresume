@@ -78,6 +78,8 @@ Below are the following scenarios that has been tested:
 <li>During responsiveness testing, the content seem to have a right margin on the smaller screen. This disappears when you change screensizes multiple times.</li>
 </ul>
 
+Update: Fixed this issue by setting margin left and right to 0. 
+
 
 
 <h3>Deployment</h3>
