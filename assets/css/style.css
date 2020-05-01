@@ -254,6 +254,11 @@ hr {
   margin-left: 340px;
 }
 
+.progress-padding {
+    padding-right: 0;
+    padding-left: 50px;
+}
+
 /*------------Skills Bar Media Queries--------------*/
 
 @media screen and (max-width: 1117px) {
@@ -290,6 +295,9 @@ hr {
   margin-top: 50px;
 }
 
+.form-control {
+    margin=bottom: 10px !important;
+}
 button {
   margin-top: 20px;
   margin-bottom: 20px;
