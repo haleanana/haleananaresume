@@ -295,9 +295,10 @@ hr {
   margin-top: 50px;
 }
 
-.form-control {
-    margin=bottom: 10px !important;
+input {
+    margin-bottom: 10px;
 }
+
 button {
   margin-top: 20px;
   margin-bottom: 20px;
