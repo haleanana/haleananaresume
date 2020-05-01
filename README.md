@@ -29,7 +29,7 @@ The webpage has all the information that a potential employer/collaborator needs
 <h2>Demo</h2>
 
 <p>
-    <img src="../images/project.jpg" width="220" height="240" />
+    <img src="../mockups/responsive.png" style="max-width:100%" />
 </p>
 
 <h2>Features</h2>
@@ -40,7 +40,7 @@ In this current version, my main feature is the collapsable navigation bar. All 
 The navbar background when viewed on smaller screen was initially visually unappealing so I made sure that when scaled to smaller screens, the navbar background disappears and blends in the photo.
 
 
-<h3>Features Left to Implement<</h3>
+<h3>Features Left to Implement</h3>
 I would like to add a "Portofolio" page once I have enough projects to showcase.
 I also intend to add animated feautures once I become proficient at JS ,Python and etc.
 
