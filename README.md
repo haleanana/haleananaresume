@@ -28,7 +28,9 @@ The webpage has all the information that a potential employer/collaborator needs
 
 <h2>Demo</h2>
 
-<img src= "../images/project.jpg" style="max-width:100%" alt="Design">
+<p>
+    <img src="../images/project.jpg" width="220" height="240" />
+</p>
 
 <h2>Features</h2>
 
