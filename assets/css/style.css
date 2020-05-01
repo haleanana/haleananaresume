@@ -7,6 +7,10 @@ html body {
   padding: 0;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 
 /*------------Nav---------------*/
 
@@ -286,6 +290,7 @@ button {
 
 .btn-primary:hover {
   background-color: #e8b9b9;
+  border-color: #fff
 }
 
 
