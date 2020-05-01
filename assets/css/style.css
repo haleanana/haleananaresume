@@ -39,6 +39,8 @@ html body {
   color: black
 }
 
+/*------------Nav bar media queries---------------*/
+
 @media only screen and (max-width: 993px) {
   .navbar {
     height: 0px;
@@ -172,6 +174,8 @@ hr {
   background-position: 50%;
 }
 
+/*------------About Me Media Queries-------------*/
+
 @media screen and (max-width: 1393px) {
   #about-me {
     width: 65%;
@@ -198,6 +202,7 @@ hr {
     display: none;
   }
 }
+
 
 @media screen and (max-width: 943px) {
   #about-me {
@@ -248,6 +253,8 @@ hr {
   margin: 0 auto;
   margin-left: 340px;
 }
+
+/*------------Skills Bar Media Queries--------------*/
 
 @media screen and (max-width: 1117px) {
   .progress-skills {
@@ -345,6 +352,8 @@ footer li a i:hover {
   margin: 0;
   padding-top: 25px;
 }
+
+/*-------------------Footer Media Queries------------------------*/
 
 @media screen and (max-width: 577px) {
   .footer-contact p {
