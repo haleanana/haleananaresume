@@ -26,6 +26,10 @@ The webpage has all the information that a potential employer/collaborator needs
 
 <a href="https://www.figma.com/file/uSBSgPJTvIpOQyNAWUnOl7/resume-website?node-id=0%3A1" target="_blank"> Link to my mockup.</a>
 
+<h2>Demo</h2>
+
+<img src="../images/projectfinal.JPG"> 
+
 <h2>Features</h2>
 
 <h3>Existing Features</h3>
