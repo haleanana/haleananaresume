@@ -29,7 +29,7 @@ The webpage has all the information that a potential employer/collaborator needs
 <h2>Demo</h2>
 
 <p>
-    <img src="../mockups/responsive.png" style="max-width:100%" />
+    <img src="https://github.com/haleanana/haleananaresume/blob/master/assets/mockups/responsive.png" style="max-width:100%" />
 </p>
 
 <h2>Features</h2>
