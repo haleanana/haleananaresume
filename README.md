@@ -28,6 +28,8 @@ The webpage has all the information that a potential employer/collaborator needs
 
 <h2>Demo</h2>
 
+Live Demo <a href= "https://haleanana.github.io/haleananaresume/" target= "_blank">here</a>
+
 <p>
     <img src="https://github.com/haleanana/haleananaresume/blob/master/assets/mockups/responsive.png" style="max-width:100%" />
 </p>
