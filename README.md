@@ -10,10 +10,9 @@ I wanted to create a resume website to:
 <h2> UX </h2>
 As I've mentioned, this website is mainly targeted at potential employers. I focused on something simple and easy to navigate but made sure that it showcases what I'm capable of visually and technically.
 
-During my research of what a good online resume should present, I found the following:
+During my research for what a good online resume should present, I found the following:
 
 <ul>
-
 <li> Simple and easy to navigate</li>
 <li> Just  the right amount of information </li>
 <li> Colour scheme should be pleasing and should not contradict</li>
@@ -44,7 +43,7 @@ The navbar background when viewed on smaller screen was initially visually unapp
 
 <h3>Features Left to Implement</h3>
 I would like to add a "Portofolio" page once I have enough projects to showcase.
-I also intend to add animated feautures once I become proficient at JS ,Python and etc.
+I also intend to add animated features once I become proficient at JS ,Python and etc.
 
 <h2>Technologies Used</h2>
 <ul>
@@ -87,7 +86,6 @@ Below are the following scenarios that has been tested:
 </ul>
 
 Update: Fixed this issue by setting margin left and right to 0. 
-
 
 
 <h3>Deployment</h3>
