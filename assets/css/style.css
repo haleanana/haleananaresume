@@ -44,11 +44,18 @@ html body {
 @media only screen and (max-width: 993px) {
   .navbar {
     height: 0px;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
+    padding: 0
+
   }
   .navbar-brand {
     display: none;
+  }
+  .navbar-collapse {
+      background-color: #fff;
+      padding-left: 10px;
+  }
+  .navbar-toggler {
+      margin-left: 10px;
   }
 }
 
